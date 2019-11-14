@@ -1,4 +1,5 @@
-﻿using System;
+﻿using monpremierquestionnaire.Vues;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace monpremierquestionnaire
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new QuestionnairePage();
         }
 
         protected override void OnStart()
